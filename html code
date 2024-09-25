@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to M-KAY - Gaming, Wrestling, and Entertainment Content">
+    <title>M-KAY's Channel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        .bio {
+            margin-bottom: 30px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .video-grid iframe {
+            width: 100%;
+            height: 200px;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://www.youtube.com/@mkay3540" alt="M-KAY Channel Banner">
+    <h1>M-KAY - Gaming and Wrestling Content</h1>
+</header>
+
+<nav>
+    <a href="#https://youtu.be/XSSmc3m3JA8?si=S2D3-Pojf0Z_wBZM">Videos</a>
+    <a href="#https://youtube.com/playlist?list=PL1lMhjQkDP_waKdQK8wZWZnWwVqajcUKR&si=7shYIVDs2T-vs-9E">Playlists</a>
+    <a href="#https://x.com/mkay3540?s=09">Contact</a>
+</nav>
+
+<main>
+    <section class="bio">
+        <h2>About the Channel</h2>
+        <p>
+            Welcome to <a href="https://www.youtube.com/@mkay3540?sub_confirmation=1" target="_blank">M-KAY</a>, your go-to destination for gaming, wrestling, and entertainment content. Whether you're a fan of action-packed wrestling matches or immersive gaming experiences, M-KAY has something for you!
+        </p>
+    </section>
+
+    <section id="videos">
+        <h2>Latest Videos</h2>
+        <div class="video-grid">
+            <iframe src="https://youtube.com/shorts/GTwB9jGSMW0?si=W84rvPVAiviFU2oL" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://youtube.com/shorts/KZbxZ6YQwZg?si=HVm7VvbrtTGoMCgB" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://youtube.com/shorts/dtcHcOff618?si=B137sB_qCg4My9D8" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="playlists">
+        <h2>Playlists</h2>
+        <ul>
+            <li><a href="https://youtube.com/playlist?list=PL1lMhjQkDP_waKdQK8wZWZnWwVqajcUKR" target="_blank">Wrestling Shorts Playlist</a></li>
+            <li><a href="https://youtube.com/playlist?list=another-playlist-link" target="_blank">Gaming Content Playlist</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>For inquiries, feel free to contact us at: <a href="mailto:mpilenhlem11@gmail.com">mpilenhlem11@gmail.com</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 M-KAY Channel | <a href="https://www.youtube.com/@mkay3540" target="_blank">Subscribe to the Channel</a></p>
+</footer>
+
+</body>
+</html>
